@@ -1,0 +1,40 @@
+.container {
+    max-width: 600px;
+    max-height: fit-content;
+}
+
+
+.btn {
+    background: #43d9be;
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn:focus {
+    outline: none !important;
+    color: rgb(197, 240, 8);
+}
+
+body {
+    background-image: url('bg-chat.jpg');
+}
+
+.username {
+    font-weight: bold;
+}
+
+.time {
+    font-size: 0.7em;
+    color: #999;
+}
+
+.update-mssg {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.chat-window {
+    max-height: 600px;
+    overflow-y: auto;
+}
